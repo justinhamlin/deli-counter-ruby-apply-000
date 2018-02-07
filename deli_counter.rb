@@ -11,9 +11,10 @@ puts current_place
 end
 end
 
-def take_a_number(katz_deli,name)
-  katz_deli << name
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+def take_a_number(katz_deli)
+  counter = 1
+  puts "The number is #{counter}"
+  counter =+ 1
 end
 
 def now_serving(katz_deli)
